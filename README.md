@@ -14,10 +14,10 @@ Designed to help staff manage screenshare sessions quickly and effectively.
 
 ## 📝 Permissions
 
-| Command        | Permission           | Description                                |
-|----------------|----------------------|--------------------------------------------|
-| `/ss <player>` | `screenshare.use`    | Allows sending a player to screenshare.    |
-| `/sstime`      | `screenshare.time`   | Allows checking the screenshare duration.  |
+| Command        Description
+|------------------------------------------------------------|
+| `/ss <player>` | Allows sending a player to screenshare.   |
+| `/sstime`      | Allows checking the screenshare duration. |
 
 ---
 
