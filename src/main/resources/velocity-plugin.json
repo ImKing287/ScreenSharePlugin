@@ -1,0 +1,11 @@
+{
+  "id": "screenshareplugin",
+  "name": "ScreenSharePlugin",
+  "version": "1.0",
+  "description": "Plugin per fare screenshare dei giocatori.",
+  "authors": [
+    "King"
+  ],
+  "main": "ScreenSharePlugin",
+  "dependencies": []
+}
