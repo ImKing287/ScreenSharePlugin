@@ -1,2 +1,29 @@
-# ScreenSharePlugin
-SS Plugin for Paper 1.21.8
+# 📺 Screenshare Plugin (Paper 1.21.8)
+
+A lightweight SS plugin for Paper 1.21.8 with configurable messages and screenshare server redirection.  
+Designed to help staff manage screenshare sessions quickly and effectively.
+
+---
+
+## ⚙️ Commands
+
+- `/ss <player>` → Sends the selected player to the configured screenshare server.  
+- `/sstime` → Displays how long the screenshare session has been active.  
+
+---
+
+## 📝 Permissions
+
+| Command        | Permission           | Description                                |
+|----------------|----------------------|--------------------------------------------|
+| `/ss <player>` | `screenshare.use`    | Allows sending a player to screenshare.    |
+| `/sstime`      | `screenshare.time`   | Allows checking the screenshare duration.  |
+
+---
+
+## 🛠️ Configuration
+
+The `config.yml` file allows customization of:
+
+- **Messages** sent to players and staff.  
+- **Target server** where players are redirected during screenshare.
