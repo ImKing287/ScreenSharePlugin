@@ -1,6 +1,6 @@
-# 📺 Screenshare Plugin (Paper 1.21.8)
+# 📺 Screenshare Plugin 
 
-A lightweight SS plugin for Paper 1.21.8 with configurable messages and screenshare server redirection.  
+A lightweight SS plugin with configurable messages and screenshare server redirection.  
 Designed to help staff manage screenshare sessions quickly and effectively.
 
 ---
