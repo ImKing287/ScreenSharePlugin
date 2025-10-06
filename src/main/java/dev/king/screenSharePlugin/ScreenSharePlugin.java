@@ -40,7 +40,7 @@ public class ScreenSharePlugin {
 
         loadConfig();
 
-        // /ss
+
         server.getCommandManager().register("ss", new SimpleCommand() {
             @Override
             public void execute(Invocation invocation) {
@@ -102,7 +102,7 @@ public class ScreenSharePlugin {
             }
         });
 
-        // /sstime
+
         server.getCommandManager().register("sstime", new SimpleCommand() {
             @Override
             public void execute(Invocation invocation) {
@@ -122,7 +122,7 @@ public class ScreenSharePlugin {
             }
         });
 
-        // /ssreload
+
         server.getCommandManager().register("ssreload", new SimpleCommand() {
             @Override
             public void execute(Invocation invocation) {
@@ -192,14 +192,14 @@ public class ScreenSharePlugin {
         UUID staffId = staff.getUniqueId();
 
         if (!activeScreenshare.containsKey(staffId)) {
-            return; // non è staff in screenshare
+            return; 
         }
 
-        // Nome del server di screenshare
+
         String ssServerName = (String) config.getOrDefault("screenshare-server", "screenshare");
         String targetServer = event.getServer().getServerInfo().getName();
 
-        // Se NON è il server screenshare -> termina lo screenshare
+
         if (!targetServer.equalsIgnoreCase(ssServerName)) {
             handleStaffExitOrSwitch(staff);
         }
@@ -245,3 +245,4 @@ public class ScreenSharePlugin {
         }
     }
 }
+
